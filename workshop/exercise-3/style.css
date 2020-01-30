@@ -1,1 +1,15 @@
-/* ...crickets... */
+
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: center;
+    margin:0;
+}
+
+.emph {
+    font-style: italic;
+}

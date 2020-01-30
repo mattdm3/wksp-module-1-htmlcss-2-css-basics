@@ -10,3 +10,63 @@ html, body, div, h1, h2, p, ul, li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+	font-family: "Bangers";
+}
+
+img {
+	max-width: 250px;
+	max-height: 160px;
+	margin: 20px;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+.animal-box {
+	background-color: rgb(224, 224, 224);
+	border: 1.5px dashed black;
+	text-align: center;
+
+}
+
+.all-animals-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	
+}
+
+
+/* CUTE ANIMALS SECTION */
+
+.animal-section {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+
+/* BIG and Insects adjustments */
+
+.big {
+	max-width: 60%;
+}
+
+.big .animal-box {
+	margin: 0 15px;
+}
+
+.big img {
+	max-width: 350px;
+	max-height: 170px;
+}
+

@@ -39,6 +39,9 @@ CSS Selectors are used to specify on which elements to apply styling.
 | tag   | `body`      |  👍   |
 | id    | `#bacon`    |  🚫   |
 
+
+NOTE: YOU SHOULD ALWAYS AVOID USING IDS. IT MAKES YOUR CODE MESSY AND IT MAKES IT SLOWER. (WE CAN USE IDS FOR JAVASCRIPT ONLY BUT NOT CSS).
+
 ---
 
 ### Example (using tags):

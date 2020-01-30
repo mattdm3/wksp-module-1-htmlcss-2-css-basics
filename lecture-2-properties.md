@@ -33,6 +33,10 @@ Write the CSS to make the cat text blue.
 ```css
 /* css here */
 
+.feline {
+    color: blue;
+}
+
 ```
 
 ---
@@ -48,7 +52,9 @@ Write the CSS to make the cat text blue.
 ```
 
 ```css
-/* css here */
+h2 {
+    color: blue;
+}
 
 ```
 
@@ -64,7 +70,9 @@ Write the CSS to make the cat text blue.
 ```
 
 ```css
-/* css here */
+.royalcat {
+    color:blue;
+}
 
 ```
 
@@ -81,7 +89,9 @@ Write the CSS to make the dogs text red.
 ```
 
 ```css
-/* css here */
+.canine {
+    color: red;
+}
 
 ```
 
@@ -98,7 +108,9 @@ Write the CSS to make the dogs text red.
 ```
 
 ```css
-/* css here */
+h1 {
+    color: red;
+}
 
 ```
 
@@ -106,7 +118,7 @@ Write the CSS to make the dogs text red.
 
 ### Exercise 6 [🐇](https://codepen.io)
 
-What color is the `p` element?
+What color is the `p` element? BLUE
 
 `<p class="blue"> hello </p>`
 
@@ -159,7 +171,7 @@ Every HTML element is a box that has 4 properties.
 
 ### Example
 
-What is the width and height of this box?
+What is the width and height of this box? W = 170
 
 `<p class='greeting'>Hello</p>`
 
@@ -177,13 +189,15 @@ What is the width and height of this box?
 
 We can fix this with the `box-sizing` CSS property.
 
+NOTE: USE THIS WHEN WE WANT WIDTH TO INCLUDE BORDER AND MARGIN. 
+
 ```css
 * {
     box-sizing: border-box;
 }
 ```
 
-_What is the meaning of `*`?_
+_What is the meaning of `*`?_ GLOBAL
 
 ---
 
@@ -193,10 +207,10 @@ _What is the meaning of `*`?_
 
 ## The [Display](https://www.w3schools.com/cssref/pr_class_display.asp) property
 
-- block
-- inline-block
-- inline
-- none
+- block (TAKES THE WHOLE WIDTH)
+- inline-block (SAME AS AS INLINE BUT YOU CAN ADJUST WIDTH/HEIGHT)
+- inline (GOES NEXT TO EACH OTHER ON A LINE)
+- none (THIS CAUSES EVERYTHING ELSE TO MOVE TO ITS PLACE)
 - _there are many more_
 
 ---
